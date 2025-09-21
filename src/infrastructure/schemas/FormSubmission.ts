@@ -1,4 +1,3 @@
-// infrastructure/schemas/FormSubmission.ts
 import mongoose, { Schema, Document } from "mongoose";
 
 export interface IFormSubmission extends Document {

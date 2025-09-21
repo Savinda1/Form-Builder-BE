@@ -16,7 +16,7 @@ const fieldSchema = new mongoose.Schema({
 const formSchema = new mongoose.Schema({
   Title: { type: String, required: true },
   fields: [fieldSchema],
-}, { timestamps: true }); // adds createdAt and updatedAt automatically
+}, { timestamps: true }); 
 
 // Model
 const Form = mongoose.model("Form", formSchema);
